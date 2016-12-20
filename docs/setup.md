@@ -6,9 +6,11 @@ Tested with Ubuntu 16.04.1 x64.
 ## 1. Install dependencies
 
     sudo apt-get -qq update
+    sudo apt-get install -y wget
     sudo apt-get install -y libxml2-dev
     sudo apt-get install -y gcc
     sudo apt-get install -y python3-dev
+    sudo apt-get install -y virtualenv
     sudo apt-get install -y libffi-dev
     sudo apt-get install -y libssl-dev
 
@@ -31,7 +33,7 @@ Setup bitcoin full node with addrindex patch
     addrindex=1
 
     # Start bitcoin full node
-    bitcoin-0.12.1/bin/bitcoind -testnet -daemon -txindex
+    bitcoin-0.12.1/bin/bitcoind -testnet -daemon
 
     # It will take some time to download the full bitcoin blockchain.
     # Use getinfo api call to check when it has synced.
