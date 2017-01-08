@@ -1,6 +1,6 @@
 # mph_connections
 
-Audit hubs liquidity to determan if a transfer is likely to succeed.
+Audit hub's liquidity to determine if a transfer is likely to succeed.
 
 Each entry is signed by the hub to prove it controls the keypair.
 
