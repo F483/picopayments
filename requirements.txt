@@ -1,7 +1,7 @@
 six == 1.10.0
 picopayments-cli == 0.2.0
 json-rpc == 1.10.3
-werkzeug == 0.11.11
+werkzeug == 0.11.15
 pycoin == 0.70
 apsw == 3.9.2-r1
 pycrypto == 2.6.1
